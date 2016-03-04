@@ -20,6 +20,7 @@ import com.google.appinventor.client.editor.simple.components.MockDatePicker;
 import com.google.appinventor.client.editor.simple.components.MockEmailPicker;
 import com.google.appinventor.client.editor.simple.components.MockFirebaseDB;
 import com.google.appinventor.client.editor.simple.components.MockHorizontalArrangement;
+import com.google.appinventor.client.editor.simple.components.MockHorizontalScroll;
 import com.google.appinventor.client.editor.simple.components.MockImage;
 import com.google.appinventor.client.editor.simple.components.MockImagePicker;
 import com.google.appinventor.client.editor.simple.components.MockImageSprite;
@@ -35,6 +36,7 @@ import com.google.appinventor.client.editor.simple.components.MockSlider;
 import com.google.appinventor.client.editor.simple.components.MockTableArrangement;
 import com.google.appinventor.client.editor.simple.components.MockTextBox;
 import com.google.appinventor.client.editor.simple.components.MockVerticalArrangement;
+import com.google.appinventor.client.editor.simple.components.MockVerticalScroll;
 import com.google.appinventor.client.editor.simple.components.MockVideoPlayer;
 import com.google.appinventor.client.editor.simple.components.MockWebViewer;
 import com.google.appinventor.client.editor.simple.components.MockSpinner;
@@ -302,8 +304,12 @@ public final class SimpleComponentDescriptor {
       return new MockTimePicker(editor);
     } else if (name.equals(MockHorizontalArrangement.TYPE)) {
       return new MockHorizontalArrangement(editor);
+    } else if (name.equals(MockHorizontalScroll.TYPE)) {
+      return new MockHorizontalScroll(editor);
     } else if (name.equals(MockVerticalArrangement.TYPE)) {
       return new MockVerticalArrangement(editor);
+    } else if (name.equals(MockVerticalScroll.TYPE)) {
+      return new MockVerticalScroll(editor);
     } else if (name.equals(MockTableArrangement.TYPE)) {
       return new MockTableArrangement(editor);
     } else if (name.equals(MockImageSprite.TYPE)) {
