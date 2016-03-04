@@ -147,6 +147,12 @@ public interface Images extends Resources {
   ImageResource horizontal();
 
   /**
+   * Designer palette item: horizontalScroll arrangement component
+   */
+  @Source("com/google/appinventor/images/horizontalScroll.png")
+  ImageResource horizontalScroll();
+
+  /**
    * Designer palette item: image component
    * Also used for image file icon for project explorer
    */
@@ -374,6 +380,12 @@ public interface Images extends Resources {
    */
   @Source("com/google/appinventor/images/vertical.png")
   ImageResource vertical();
+
+  /**
+   * Designer palette item: verticalScroll arrangement component
+   */
+  @Source("com/google/appinventor/images/verticalScroll.png")
+  ImageResource verticalScroll();
 
   /**
    * Designer palette item: VotingComponent
