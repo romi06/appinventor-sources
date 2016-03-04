@@ -378,8 +378,12 @@ public class YaVersion {
   // - CLOCK_COMPONENT_VERSION was incremented to 3
   // For YOUNG_ANDROID_VERSION 150:
   // - IMAGE_COMPONENT_VERSION was incremented to 3
+  // For YOUNG_ANDROID_VERSION 151:
+  // - VERTICALARRANGEMENTSCROLL_COMPONENT_VERSION 1
+  // For YOUNG_ANDROID_VERSION 152:
+  // - HORIZONTALARRANGEMENTSCROLL_COMPONENT_VERSION 1
 
-  public static final int YOUNG_ANDROID_VERSION = 150;
+  public static final int YOUNG_ANDROID_VERSION = 152;
 
   // ............................... Blocks Language Version Number ...............................
 
@@ -686,6 +690,8 @@ public class YaVersion {
   // - Added background color & image
   public static final int HORIZONTALARRANGEMENT_COMPONENT_VERSION = 3;
 
+  public static final int HORIZONTALARRANGEMENTSCROLL_COMPONENT_VERSION = 1;
+
   // For IMAGE_COMPONENT_VERSION 2:
   // - The RotationAngle property was added.
   // For IMAGE_COMPONENT_VERSION 3:
@@ -943,6 +949,8 @@ public class YaVersion {
   // - The AlignVertical property was added
   // - Added background color & image
   public static final int VERTICALARRANGEMENT_COMPONENT_VERSION = 3;
+  
+  public static final int VERTICALARRANGEMENTSCROLL_COMPONENT_VERSION = 1;
 
   // For VIDEOPLAYER_COMPONENT_VERSION 2:
   // - The VideoPlayer.VideoPlayerError event was added.
