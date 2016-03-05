@@ -141,10 +141,11 @@ public class VerticalScroll extends AndroidViewComponent implements Component, C
           break;
       }
       view.requestLayout();
-    } else {
+    } 
+    /*else {
       //Log.e("ViewUtil", "The view does not have linear layout parameters");
     }
-    /*if (orientation == ComponentConstants.LAYOUT_ORIENTATION_HORIZONTAL) {
+    if (orientation == ComponentConstants.LAYOUT_ORIENTATION_HORIZONTAL) {
       ViewUtil.setChildWidthForHorizontalLayout(component.getView(), width);
     } else {
       ViewUtil.setChildWidthForVerticalLayout(component.getView(), width);
@@ -170,10 +171,11 @@ public class VerticalScroll extends AndroidViewComponent implements Component, C
           break;
       }
       view.requestLayout();
-    } else {
+    }
+    /*else {
       //Log.e("ViewUtil", "The view does not have linear layout parameters");
     }
-    /*if (orientation == ComponentConstants.LAYOUT_ORIENTATION_HORIZONTAL) {
+    if (orientation == ComponentConstants.LAYOUT_ORIENTATION_HORIZONTAL) {
       ViewUtil.setChildHeightForHorizontalLayout(component.getView(), height);
     } else {
       ViewUtil.setChildHeightForVerticalLayout(component.getView(), height);
