@@ -26,7 +26,7 @@
  */
 'use strict';
 
-goog.provide('Blockly.Msg.en');
+goog.provide('Blockly.Msg.pl_pl');
 
 /**
  * Due to the frequency of long strings, the 80-column wrap rule need not apply
@@ -39,20 +39,20 @@ Blockly.Msg.en.switch_language_to_english = {
   helpUrl: '',
   init: function() {
 // Context menus.
-    Blockly.Msg.DUPLICATE_BLOCK = 'Duplicate';
-    Blockly.Msg.REMOVE_COMMENT = 'Remove Comment';
-    Blockly.Msg.ADD_COMMENT = 'Add Comment';
+    Blockly.Msg.DUPLICATE_BLOCK = 'Duplikuj';
+    Blockly.Msg.REMOVE_COMMENT = 'Usuń Komentarz';
+    Blockly.Msg.ADD_COMMENT = 'Dodaj Komentarz';
     Blockly.Msg.EXTERNAL_INPUTS = 'External Inputs';
     Blockly.Msg.INLINE_INPUTS = 'Inline Inputs';
     Blockly.Msg.HORIZONTAL_PARAMETERS = 'Arrange Parameters Horizontally';
     Blockly.Msg.VERTICAL_PARAMETERS = 'Arrange Parameters Vertically';
-    Blockly.Msg.DELETE_BLOCK = 'Delete Block';
-    Blockly.Msg.DELETE_X_BLOCKS = 'Delete %1 Blocks';
+    Blockly.Msg.DELETE_BLOCK = 'Usuń Blok';
+    Blockly.Msg.DELETE_X_BLOCKS = 'Usuń %1 Bloki';
     Blockly.Msg.COLLAPSE_BLOCK = 'Collapse Block';
     Blockly.Msg.EXPAND_BLOCK = 'Expand Block';
-    Blockly.Msg.DISABLE_BLOCK = 'Disable Block';
-    Blockly.Msg.ENABLE_BLOCK = 'Enable Block';
-    Blockly.Msg.HELP = 'Help';
+    Blockly.Msg.DISABLE_BLOCK = 'Wyłącz Blok';
+    Blockly.Msg.ENABLE_BLOCK = 'Włącz Blok';
+    Blockly.Msg.HELP = 'Pomoc';
     Blockly.Msg.EXPORT_IMAGE = 'Download Blocks as Image';
     Blockly.Msg.COLLAPSE_ALL = 'Collapse Blocks';
     Blockly.Msg.EXPAND_ALL = 'Expand Blocks';
@@ -489,7 +489,7 @@ Blockly.Msg.en.switch_language_to_english = {
 
     Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/math#format';
     Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_TITLE = 'format as decimal';
-    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT_NUM = 'number';
+    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT_NUM = 'numer';
     Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT_PLACES = 'places';
     Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT = 'format as decimal number %1 places %2';
     Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_TOOLTIP = 'Returns the number formatted as a decimal\n' +
@@ -530,7 +530,7 @@ Blockly.Msg.en.switch_language_to_english = {
     Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_BIN_TO_DEC = 'Takes a string that represents a number in binary and returns the string that represents the number in base 10';
 
 // Text Blocks.
-    Blockly.Msg.LANG_CATEGORY_TEXT = 'Text';
+    Blockly.Msg.LANG_CATEGORY_TEXT = 'Tekst';
     Blockly.Msg.LANG_TEXT_TEXT_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/text#string';
     Blockly.Msg.LANG_TEXT_TEXT_TOOLTIP = 'A text string.';
     Blockly.Msg.LANG_TEXT_TEXT_LEFT_QUOTE = '\u201C';
@@ -540,7 +540,7 @@ Blockly.Msg.en.switch_language_to_english = {
     Blockly.Msg.LANG_TEXT_JOIN_TITLE_CREATEWITH = 'create text with';
     Blockly.Msg.LANG_TEXT_JOIN_TOOLTIP = 'Appends all the inputs to form a single text string.\n'
         + 'If there are no inputs, makes an empty text.';
-    Blockly.Msg.LANG_TEXT_JOIN_TITLE_JOIN = 'join';
+    Blockly.Msg.LANG_TEXT_JOIN_TITLE_JOIN = 'połącz';
 
     Blockly.Msg.LANG_TEXT_JOIN_ITEM_TITLE_ITEM = 'string';
     Blockly.Msg.LANG_TEXT_JOIN_ITEM_TOOLTIP = '';
@@ -552,7 +552,7 @@ Blockly.Msg.en.switch_language_to_english = {
     Blockly.Msg.LANG_TEXT_APPEND_TOOLTIP = 'Append some text to variable "%1".';
 
     Blockly.Msg.LANG_TEXT_LENGTH_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/text#length';
-    Blockly.Msg.LANG_TEXT_LENGTH_INPUT_LENGTH = 'length';
+    Blockly.Msg.LANG_TEXT_LENGTH_INPUT_LENGTH = 'długość';
     Blockly.Msg.LANG_TEXT_LENGTH_TOOLTIP = 'Returns number of letters (including spaces)\n' +
         'in the provided text.';
 
@@ -617,7 +617,7 @@ Blockly.Msg.en.switch_language_to_english = {
 
     Blockly.Msg.LANG_TEXT_STARTS_AT_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/text#startsat';
     Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_STARTS_AT = 'starts at';
-    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_TEXT = 'text';
+    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_TEXT = 'tekst';
     Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_PIECE = 'piece';
     Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT = 'starts at  text %1 piece %2';
     Blockly.Msg.LANG_TEXT_STARTS_AT_TOOLTIP = 'Returns the starting index of the piece in the text.\n'
@@ -626,13 +626,13 @@ Blockly.Msg.en.switch_language_to_english = {
 
     Blockly.Msg.LANG_TEXT_CONTAINS_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/text#contains';
     Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_CONTAINS = 'contains';
-    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_TEXT = 'text';
+    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_TEXT = 'tekst';
     Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_PIECE = 'piece';
     Blockly.Msg.LANG_TEXT_CONTAINS_INPUT = 'contains  text %1 piece %2';
     Blockly.Msg.LANG_TEXT_CONTAINS_TOOLTIP = 'Tests whether the piece is contained in the text.';
 
     Blockly.Msg.LANG_TEXT_SPLIT_HELPURL = '';
-    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_TEXT = 'text';
+    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_TEXT = 'tekst';
     Blockly.Msg.LANG_TEXT_SPLIT_INPUT_AT = 'at';
     Blockly.Msg.LANG_TEXT_SPLIT_INPUT_AT_LIST = 'at (list)';
     Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_FIRST = 'split at first';
@@ -683,8 +683,8 @@ Blockly.Msg.en.switch_language_to_english = {
     Blockly.Msg.LANG_TEXT_SEGMENT_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/text#segment';
     Blockly.Msg.LANG_TEXT_SEGMENT_TITLE_SEGMENT = 'segment';
     Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_START = 'start';
-    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_LENGTH = 'length';
-    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_TEXT = 'text';
+    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_LENGTH = 'długość';
+    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_TEXT = 'tekst';
     Blockly.Msg.LANG_TEXT_SEGMENT_INPUT = 'segment  text %1 start %2 length %3';
     Blockly.Msg.LANG_TEXT_SEGMENT_AT_TOOLTIP = 'Extracts the segment of the given length from the given text\n'
         + 'starting from the given text starting from the given position. Position\n'
@@ -692,7 +692,7 @@ Blockly.Msg.en.switch_language_to_english = {
 
     Blockly.Msg.LANG_TEXT_REPLACE_ALL_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/text#replaceall';
     Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_SEGMENT = 'segment';
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_TEXT = 'text';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_TEXT = 'tekst';
     Blockly.Msg.LANG_TEXT_REPLACE_ALL_TITLE_REPLACE_ALL = 'replace all';
     Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_REPLACEMENT = 'replacement';
     Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT = 'replace all text %1 segment %2 replacement %3';
