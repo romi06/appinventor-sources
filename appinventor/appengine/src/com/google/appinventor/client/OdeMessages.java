@@ -5612,6 +5612,10 @@ public interface OdeMessages extends Messages {
   @DefaultMessage("한국어")
   @Description("")
   String SwitchToKorean();
+  
+  @DefaultMessage("Polish")
+  @Description("")
+  String SwitchToPolish();
 
   @DefaultMessage("Svenska")
   @Description("")
