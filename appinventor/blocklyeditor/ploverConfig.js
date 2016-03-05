@@ -13,6 +13,7 @@
     './src/msg/zh_cn/_messages.js',
     './src/msg/fr_fr/_messages.js',
     './src/msg/it_it/_messages.js',
+    './src/msg/pl_pl/_messages.js',
     './src/msg/ru/_messages.js',
     './src/msg/sv/_messages.js',
     './src/msg/pt_br/_messages.js',
