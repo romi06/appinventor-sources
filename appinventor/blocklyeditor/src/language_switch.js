@@ -16,6 +16,7 @@ goog.require('Blockly.Msg.zh_cn');
 goog.require('Blockly.Msg.zh_tw');
 goog.require('Blockly.Msg.es_es');
 goog.require('Blockly.Msg.it_it');
+goog.require('Blockly.Msg.pl_pl');
 goog.require('Blockly.Msg.ru');
 goog.require('Blockly.Msg.ko_kr');
 goog.require('Blockly.Msg.sv');
@@ -43,6 +44,9 @@ Blockly.language_switch = {
         break;
       case 'fr_FR':
         Blockly.Msg.fr_fr.switch_language_to_french.init();
+        break;
+      case 'pl_PL':
+        Blockly.Msg.pl_pl.switch_language_to_polish.init();
         break;
       case 'it_IT':
         Blockly.Msg.it_it.switch_language_to_italian.init()
