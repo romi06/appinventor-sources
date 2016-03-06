@@ -5605,6 +5605,10 @@ public interface OdeMessages extends Messages {
   @Description("")
   String SwitchToItalian();
 
+  @DefaultMessage("Polski")
+  @Description("")
+  String SwitchToPolski();
+  
   @DefaultMessage("Pусский")
   @Description("")
   String SwitchToRussian();
