@@ -20,10 +20,6 @@
  * limitations under the License.
  */
 
-/**
- * @fileoverview Traditional English strings.
- * @author mckinney@gmail.com (Andrew F. McKinney)
- */
 'use strict';
 
 goog.provide('Blockly.Msg.pl');
@@ -34,7 +30,7 @@ goog.provide('Blockly.Msg.pl');
  */
 
 Blockly.Msg.pl.switch_language_to_polski = {
-  // Switch language to English.
+  // Switch language to Polski.
   category: '',
   helpUrl: '',
   init: function() {
@@ -48,25 +44,25 @@ Blockly.Msg.pl.switch_language_to_polski = {
     Blockly.Msg.VERTICAL_PARAMETERS = 'Arrange Parameters Vertically';
     Blockly.Msg.DELETE_BLOCK = 'Usuń Blok';
     Blockly.Msg.DELETE_X_BLOCKS = 'Usuń %1 Bloki';
-    Blockly.Msg.COLLAPSE_BLOCK = 'Collapse Block';
-    Blockly.Msg.EXPAND_BLOCK = 'Expand Block';
+    Blockly.Msg.COLLAPSE_BLOCK = 'Zwiń Blok';
+    Blockly.Msg.EXPAND_BLOCK = 'Rozwiń Blok';
     Blockly.Msg.DISABLE_BLOCK = 'Wyłącz Blok';
     Blockly.Msg.ENABLE_BLOCK = 'Włącz Blok';
     Blockly.Msg.HELP = 'Pomoc';
-    Blockly.Msg.EXPORT_IMAGE = 'Download Blocks as Image';
-    Blockly.Msg.COLLAPSE_ALL = 'Collapse Blocks';
-    Blockly.Msg.EXPAND_ALL = 'Expand Blocks';
-    Blockly.Msg.ARRANGE_H = 'Arrange Blocks Horizontally';
-    Blockly.Msg.ARRANGE_V = 'Arrange Blocks Vertically';
-    Blockly.Msg.ARRANGE_S = 'Arrange Blocks Diagonally';
-    Blockly.Msg.SORT_W = 'Sort Blocks by Width';
-    Blockly.Msg.SORT_H = 'Sort Blocks by Height';
-    Blockly.Msg.SORT_C = 'Sort Blocks by Category';
-    Blockly.Msg.COPY_TO_BACKPACK = 'Add to Backpack';
-    Blockly.Msg.COPY_ALLBLOCKS = 'Copy All Blocks to Backpack';
-    Blockly.Msg.BACKPACK_GET = 'Paste All Blocks from Backpack';
-    Blockly.Msg.BACKPACK_EMPTY = 'Empty the Backpack';
-    Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Are you sure you want to empty the backpack?';
+    Blockly.Msg.EXPORT_IMAGE = 'Zapisz bloki jako obraz';
+    Blockly.Msg.COLLAPSE_ALL = 'Zwiń Bloki';
+    Blockly.Msg.EXPAND_ALL = 'Rozwiń Bloki';
+    Blockly.Msg.ARRANGE_H = 'Rozmieć bloki poziomo';
+    Blockly.Msg.ARRANGE_V = 'Rozmieć bloki pionowo';
+    Blockly.Msg.ARRANGE_S = 'Rozmieć bloki po przekątnej';
+    Blockly.Msg.SORT_W = 'Uporządkuj bloki według szerokości';
+    Blockly.Msg.SORT_H = 'Uporządkuj bloki według wysokości';
+    Blockly.Msg.SORT_C = 'Uporządkuj bloki według kategorii';
+    Blockly.Msg.COPY_TO_BACKPACK = 'Dodaj do plecaka';
+    Blockly.Msg.COPY_ALLBLOCKS = 'Skopiuj wszystkie bloki do plecaka';
+    Blockly.Msg.BACKPACK_GET = 'Wklej wszystkie bloki z plecaka';
+    Blockly.Msg.BACKPACK_EMPTY = 'Opróżnij plecak';
+    Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Czy na pewno chcesz opróżnić plecak?';
     Blockly.Msg.BACKPACK_DOC_TITLE = "Backpack Information";
     Blockly.Msg.SHOW_BACKPACK_DOCUMENTATION = "Show Backpack documentation";
     Blockly.Msg.BACKPACK_DOCUMENTATION = "The Backpack is a copy/paste feature. It allows you to copy blocks from one project or screen " +
@@ -80,19 +76,19 @@ Blockly.Msg.pl.switch_language_to_polski = {
    '</p><p><a href="http://ai2.appinventor.mit.edu/reference/other/backpack.html" target="_blank">http://ai2.appinventor.mit.edu/reference/other/backpack.html</a>';
 
 // Variable renaming.
-    Blockly.MSG_CHANGE_VALUE_TITLE = 'Change value:';
-    Blockly.MSG_NEW_VARIABLE = 'New variable...';
-    Blockly.MSG_NEW_VARIABLE_TITLE = 'New variable name:';
-    Blockly.MSG_RENAME_VARIABLE = 'Rename variable...';
+    Blockly.MSG_CHANGE_VALUE_TITLE = 'Zmiana wartości:';
+    Blockly.MSG_NEW_VARIABLE = 'Nowa zmienna ...';
+    Blockly.MSG_NEW_VARIABLE_TITLE = 'Nowa nazwa zmiennej:';
+    Blockly.MSG_RENAME_VARIABLE = 'Zmień nazwę zmiennej ...';
     Blockly.MSG_RENAME_VARIABLE_TITLE = 'Rename all "%1" variables to:';
 
 // Toolbox.
-    Blockly.MSG_VARIABLE_CATEGORY = 'Variables';
-    Blockly.MSG_PROCEDURE_CATEGORY = 'Procedures';
+    Blockly.MSG_VARIABLE_CATEGORY = 'Zmienne';
+    Blockly.MSG_PROCEDURE_CATEGORY = 'Procedury';
 
 // Warnings/Errors
     Blockly.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = "This block cannot be in a definition";
-    Blockly.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = "Select a valid item in the drop down.";
+    Blockly.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = "Wybierz prawidłową pozycję z listy rozwijanej.";
     Blockly.ERROR_DUPLICATE_EVENT_HANDLER = "This is a duplicate event handler for this component.";
     Blockly.ERROR_COMPONENT_DOES_NOT_EXIST = "Component does not exist";
 
