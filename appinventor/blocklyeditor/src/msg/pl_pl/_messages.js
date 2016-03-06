@@ -21,8 +21,7 @@
  */
 
 /**
- * @fileoverview Traditional English strings.
- * @author mckinney@gmail.com (Andrew F. McKinney)
+ * @fileoverview Traditional Polish strings.
  */
 'use strict';
 
@@ -34,7 +33,7 @@ goog.provide('Blockly.Msg.pl_pl');
  */
 
 Blockly.Msg.pl_pl.switch_language_to_polish = {
-  // Switch language to English.
+  // Switch language to Polish.
   category: '',
   helpUrl: '',
   init: function() {
@@ -99,13 +98,13 @@ Blockly.Msg.pl_pl.switch_language_to_polish = {
 // Colour Blocks.
     Blockly.Msg.LANG_COLOUR_PICKER_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/colors#basic';
     Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Click the square to pick a color.';
-    Blockly.Msg.LANG_COLOUR_BLACK = 'black';
-    Blockly.Msg.LANG_COLOUR_WHITE = 'white';
-    Blockly.Msg.LANG_COLOUR_RED = 'red';
-    Blockly.Msg.LANG_COLOUR_PINK = 'pink';
-    Blockly.Msg.LANG_COLOUR_ORANGE = 'orange';
+    Blockly.Msg.LANG_COLOUR_BLACK = 'czarny';
+    Blockly.Msg.LANG_COLOUR_WHITE = 'bialy';
+    Blockly.Msg.LANG_COLOUR_RED = 'czerwony';
+    Blockly.Msg.LANG_COLOUR_PINK = 'różowy';
+    Blockly.Msg.LANG_COLOUR_ORANGE = 'pomarańczowy';
     Blockly.Msg.LANG_COLOUR_YELLOW = 'yellow';
-    Blockly.Msg.LANG_COLOUR_GREEN = 'green';
+    Blockly.Msg.LANG_COLOUR_GREEN = 'zielony';
     Blockly.Msg.LANG_COLOUR_CYAN = 'cyan';
     Blockly.Msg.LANG_COLOUR_BLUE = 'blue';
     Blockly.Msg.LANG_COLOUR_MAGENTA = 'magenta';
@@ -115,7 +114,7 @@ Blockly.Msg.pl_pl.switch_language_to_polish = {
     Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = 'split color';
     Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/colors#split';
     Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_TOOLTIP = "A list of four elements, each in the range 0 to 255, representing the red, green, blue and alpha components.";
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'make color';
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'utwórz kolor';
     Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/colors#make';
     Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = "A color with the given red, green, blue, and optionally alpha components";
 
