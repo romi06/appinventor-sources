@@ -33,7 +33,7 @@ goog.provide('Blockly.Msg.pl_pl');
  * to message files.
  */
 
-Blockly.Msg.pl_pl.switch_language_to_polish = {
+Blockly.Msg.en.switch_language_to_english = {
   // Switch language to English.
   category: '',
   helpUrl: '',
@@ -1354,16 +1354,16 @@ Blockly.Msg.pl_pl.switch_language_to_polish = {
     Blockly.Msg.CONNECT_TO_DO_IT = 'You must be connected to the companion or emulator to use "Do It"';
 
 // Clock Component Menu Items
-    Blockly.Msg.TIME_YEARS = "Rok";
-    Blockly.Msg.TIME_MONTHS = "Mesiac";
-    Blockly.Msg.TIME_WEEKS = "Tydzień";
-    Blockly.Msg.TIME_DAYS = "DZieN";
-    Blockly.Msg.TIME_HOURS = "Godzina";
-    Blockly.Msg.TIME_MINUTES = "Minuty";
-    Blockly.Msg.TIME_SECONDS = "Sekundy";
+    Blockly.Msg.TIME_YEARS = "Years";
+    Blockly.Msg.TIME_MONTHS = "Months";
+    Blockly.Msg.TIME_WEEKS = "Weeks";
+    Blockly.Msg.TIME_DAYS = "Days";
+    Blockly.Msg.TIME_HOURS = "Hours";
+    Blockly.Msg.TIME_MINUTES = "Minutes";
+    Blockly.Msg.TIME_SECONDS = "Seconds";
     Blockly.Msg.TIME_DURATION = "Duration";
   }
 };
 
 // Initalize language definition to English
-Blockly.Msg.pl_pl.switch_language_to_polish_pl.init();
+Blockly.Msg.en.switch_language_to_english.init();
