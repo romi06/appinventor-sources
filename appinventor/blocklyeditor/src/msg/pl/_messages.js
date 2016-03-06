@@ -26,14 +26,14 @@
  */
 'use strict';
 
-goog.provide('Blockly.Msg.pl_pl');
+goog.provide('Blockly.Msg.pl');
 
 /**
  * Due to the frequency of long strings, the 80-column wrap rule need not apply
  * to message files.
  */
 
-Blockly.Msg.pl_pl.switch_language_to_polish = {
+Blockly.Msg.pl.switch_language_to_polski = {
   // Switch language to English.
   category: '',
   helpUrl: '',
@@ -1366,4 +1366,4 @@ Blockly.Msg.pl_pl.switch_language_to_polish = {
 };
 
 // Initalize language definition to English
-Blockly.Msg.pl_pl.switch_language_to_polish_pl.init();
+Blockly.Msg.pl.switch_language_to_polski.init();
